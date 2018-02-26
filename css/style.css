@@ -11,6 +11,8 @@ body {
 }
 
 body {
+	font-family: 'Tangerine', serif;
+        font-size: 18pt;
 	background: #B5BDC8;
 	position: relative;
 	/* 1. Position relative because of absolute child elements */
