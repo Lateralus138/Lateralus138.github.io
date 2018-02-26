@@ -28,7 +28,11 @@ body {
 	width: 100%;
 	/* When absolute a width has to be defined */
 }
-
+#header {
+	width: 800px;
+	margin: 0 auto;
+	background: #fff;
+}
 #bar-top {
 	top: 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28343b+0,828c95+64,b5bdc8+100 */
