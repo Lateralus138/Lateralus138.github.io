@@ -28,11 +28,14 @@ body {
 	width: 100%;
 	/* When absolute a width has to be defined */
 }
-#header, #footer {
+
+#header,
+#footer {
 	width: 800px;
 	margin: 0 auto;
 	height: 60px;
 }
+
 #bar-top {
 	top: 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28343b+0,828c95+64,b5bdc8+100 */
@@ -47,9 +50,9 @@ body {
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#b5bdc8', GradientType=0);
 	/* IE6-9 */
 	/* Position absolute top bar */
--webkit-box-shadow: 0px 2px 5px 0px rgba(181,189,200,1);
--moz-box-shadow: 0px 2px 5px 0px rgba(181,189,200,1);
-box-shadow: 0px 2px 5px 0px rgba(181,189,200,1);
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, 1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, 1);
+	box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, 1);
 }
 
 #bar-bottom {
@@ -66,22 +69,23 @@ box-shadow: 0px 2px 5px 0px rgba(181,189,200,1);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0);
 	/* IE6-9 */
 	/* Positi2on absolute bottom bar */
--webkit-box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
--moz-box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
-box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
+	-webkit-box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, 1);
+	-moz-box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, 1);
+	box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, 1);
 }
 
 #content-modules {
 	height: 100%;
 	background: #B5BDC8;
--webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
--moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
 	/* 100% now refers to the remaining space of the parent after padding and borders are set */
 }
+
 #module-center {
-	margin:0 auto;
-	background:#FFF;
-	width:800px;
-	height:100%;
+	margin: 0 auto;
+	background: #FFF;
+	width: 800px;
+	height: 100%;
 }
