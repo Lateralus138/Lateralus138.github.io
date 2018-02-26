@@ -62,6 +62,9 @@ box-shadow: 0px 2px 5px 0px rgba(181,189,200,1);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0);
 	/* IE6-9 */
 	/* Positi2on absolute bottom bar */
+-webkit-box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
+-moz-box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
+box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
 }
 
 #content-modules {
