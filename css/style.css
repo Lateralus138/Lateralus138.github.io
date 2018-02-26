@@ -15,5 +15,6 @@ body {
 #body-center {
     background: #FFF;
     max-width: 800px;
+    height: 100%;
     margin: 0 auto;
 }
