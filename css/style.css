@@ -70,6 +70,9 @@ box-shadow: 0px -2px 5px 0px rgba(181,189,200,1);
 #content-modules {
 	height: 100%;
 	background: #B5BDC8;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
 	/* 100% now refers to the remaining space of the parent after padding and borders are set */
 }
 #module-center {
