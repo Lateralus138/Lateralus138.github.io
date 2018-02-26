@@ -3,6 +3,7 @@ html, body {
      height: 100%;
 }
  body {
+          background: #B5BDC8;
      position: relative;
     /* 1. Position relative because of absolute child elements */
      padding: 0;
