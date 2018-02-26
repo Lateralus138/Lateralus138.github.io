@@ -1,45 +1,69 @@
-* {padding:0;margin:0;}
-html, body {
-     height: 100%;
+
+
+* {
+	padding: 0;
+	margin: 0;
 }
- body {
-          background: #B5BDC8;
-     position: relative;
-    /* 1. Position relative because of absolute child elements */
-     padding: 0;
-    /* 2. Using padding to define strech-able space */
-     box-sizing: border-box;
-    /* 3. Box sizing to subtract padding and border from the 100% height of this element when child elements define 100% height */
+
+html,
+body {
+	height: 100%;
 }
- #bar-top, #bar-bottom {
-     height: 60px;
-     position: absolute;
-    /* 4. Setting fixed height elements to absolute */
-     width: 100%;
-    /* When absolute a width has to be defined */
+
+body {
+	background: #B5BDC8;
+	position: relative;
+	/* 1. Position relative because of absolute child elements */
+	padding: 0;
+	/* 2. Using padding to define strech-able space */
+	box-sizing: border-box;
+	/* 3. Box sizing to subtract padding and border from the 100% height of this element when child elements define 100% height */
 }
- #bar-top {
-     top: 0;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28343b+0,828c95+64,b5bdc8+100 */
-background: #28343b; /* Old browsers */
-background: -moz-linear-gradient(top, #28343b 0%, #828c95 64%, #b5bdc8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #28343b 0%,#828c95 64%,#b5bdc8 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #28343b 0%,#828c95 64%,#b5bdc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#b5bdc8',GradientType=0 ); /* IE6-9 */
-    /* Position absolute top bar */
+
+#bar-top,
+#bar-bottom {
+	height: 60px;
+	position: absolute;
+	/* 4. Setting fixed height elements to absolute */
+	width: 100%;
+	/* When absolute a width has to be defined */
 }
- #bar-bottom {
-     bottom: 0;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
-background: #b5bdc8; /* Old browsers */
-background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
-    /* Positi2on absolute bottom bar */
+
+#bar-top {
+	top: 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28343b+0,828c95+64,b5bdc8+100 */
+	background: #28343b;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #28343b 0%, #828c95 64%, #b5bdc8 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #28343b 0%, #828c95 64%, #b5bdc8 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #28343b 0%, #828c95 64%, #b5bdc8 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#b5bdc8', GradientType=0);
+	/* IE6-9 */
+	/* Position absolute top bar */
 }
- #content-modules {
-     height: 100%;
-      background: #B5BDC8;
-    /* 100% now refers to the remaining space of the parent after padding and borders are set */
+
+#bar-bottom {
+	bottom: 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+	background: #b5bdc8;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0);
+	/* IE6-9 */
+	/* Positi2on absolute bottom bar */
 }
+
+#content-modules {
+	height: 100%;
+	background: #B5BDC8;
+	/* 100% now refers to the remaining space of the parent after padding and borders are set */
+}
+
