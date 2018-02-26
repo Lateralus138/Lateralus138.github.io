@@ -14,6 +14,6 @@ body {
     background: #FFF;
     max-width: 800px;
     height: 100%;
-    margin: 0 auto;
-    display: inline;
+    margin: auto;
+    display: inline-block;
 }
