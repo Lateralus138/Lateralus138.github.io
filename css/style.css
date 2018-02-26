@@ -66,4 +66,9 @@ body {
 	background: #B5BDC8;
 	/* 100% now refers to the remaining space of the parent after padding and borders are set */
 }
-
+#module-center {
+	margin:0 auto;
+	background:#FFF;
+	width:800px;
+	height:100%;
+}
