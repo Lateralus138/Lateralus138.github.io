@@ -19,12 +19,14 @@ h1 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 60px;
 }
 h1.header {
+	text-shadow: 1px 1px 0px #B5BDC8;
+	text-shadow: -1px -1px 0px #B5BDC8;
 	margin: 0 auto;
 	color: #FFF;
 	text-align: center;
+	line-height: 60px;
 }
 h3 {
 	font-family: 'Ubuntu', sans-serif;
