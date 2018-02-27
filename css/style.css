@@ -25,12 +25,11 @@ h1 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4pt;
+	line-height: 60px;
 }
 
 h1.header {
 	margin: 0 auto;
-	height: 60px;
 	color: #FFF;
 	text-align: center;
 }
