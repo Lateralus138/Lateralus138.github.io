@@ -1,36 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<meta charset="utf-8">
+<title>Centered Layout Test</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
 <style>
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
 </style>
 </head>
+
 <body>
-<!--<div id="body-center">
-         <h1>New Pride Services</h1>
-         <p>Current Releases:</p>
-         <ul>
-           <li><a href="https://lateralus138.github.io/Task-Lister/">Task Lister V1.1</a></li>
-         </ul>
-         </div>-->
-<div id="bar-top">
-  <div id="header">
-    <h1 class="header">Lateralus138's AutoHotkey Projects</h1>
+<div class="flexbox-parent">
+  <div class="flexbox-item header">
+    <div class="header-inner">
+      <h1><span class="3d">Lateralus138&#39;s AutoHotkey Projects</span></h1>
+    </div>
   </div>
-</div>
-<div id="content-modules">
-  <div id="module-center">
-	  <div>
-	  </div>
-    <p>Current Releases:</p>
-    <ul>
-      <li><a href="https://lateralus138.github.io/Task-Lister/">Task Lister V1.1</a></li>
-    </ul>
+  <div class="flexbox-item fill-area content flexbox-item-grow">
+    <div class="fill-area-content flexbox-item-grow">
+      <div class="box-center">
+			<article class="info">
+		  	<p>Hey</p>
+		  </article>
+		</div>
+    </div>
   </div>
-</div>
-<div id="bar-bottom">
-  <div id="footer"> </div>
+  <div class="flexbox-item footer">
+    <div class="footer-inner"> Footer </div>
+  </div>
 </div>
 </body>
 </html>

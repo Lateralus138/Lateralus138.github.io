@@ -1,108 +1,132 @@
 * {
-	padding: 0;
 	margin: 0;
-}
-html, body {
-	height: 100%;
-}
-body {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 18pt;
-	background: #B5BDC8;
-	position: relative;
 	padding: 0;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-h1 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 24pt;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-}
-h1.header {
-	text-shadow: 1px 1px 0px #B5BDC8;
-	text-shadow: -1px -1px 0px #B5BDC8;
-	margin: 0 auto;
-	color: #FFF;
-	text-align: center;
-	line-height: 60px;
-}
-h3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14pt;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.4pt;
-}
-p {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14pt;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20pt;
-}
-blockquote {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 21pt;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30pt;
-}
-pre {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 13pt;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5667pt;
-}
-#bar-top, #bar-bottom {
-	height: 60px;
-	position: absolute;
+html, body {
 	width: 100%;
-}
-#header, #footer {
-	width: 800px;
-	margin: 0 auto;
-	height: 60px;
-}
-#bar-top {
-	top: 0;
-	background: #28343b;
-	background: -moz-linear-gradient(top, #28343b 0%, #828c95 64%, #b5bdc8 100%);
-	background: -webkit-linear-gradient(top, #28343b 0%, #828c95 64%, #b5bdc8 100%);
-	background: linear-gradient(to bottom, #28343b 0%, #828c95 64%, #b5bdc8 100%);
- filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#b5bdc8', GradientType=0);
-	-webkit-box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, 1);
-	-moz-box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, 1);
-	box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, 1);
-}
-#bar-bottom {
-	bottom: 0;
-	background: #b5bdc8;
-	background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
-	background: -webkit-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
-	background: linear-gradient(to bottom, #b5bdc8 0%, #828c95 36%, #28343b 100%);
- filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0);
-	-webkit-box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, 1);
-	-moz-box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, 1);
-	box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, 1);
-}
-#content-modules {
 	height: 100%;
-	background: #B5BDC8;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #E0E0E0;
+	color: #212121;
+	font-size: 14px;
+	font-family: 'Saira Condensed', sans-serif;
+/*	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+.flexbox-parent {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; /* align items in Main Axis */
+	align-items: stretch; /* align items in Cross Axis */
+	align-content: stretch; /* Extra space in Cross Axis */
+	background: rgba(255, 255, 255, .1);
+}
+.flexbox-item {
+	padding: 8px;
+}
+.flexbox-item-grow {
+	flex: 1; /* same as flex: 1 1 auto; */
+}
+.flexbox-item.header {
+	position: static;
+	display: flex;
+	justify-content: center;
+	z-index: 2;
+	height: 60px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#212121+0,757575+50,e0e0e0+100 */
+	background: #212121; /* Old browsers */
+	background: -moz-linear-gradient(top, #212121 0%, #757575 50%, #e0e0e0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #212121 0%, #757575 50%, #e0e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #212121 0%, #757575 50%, #e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#e0e0e0', GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, .1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, .1);
+	box-shadow: 0px 2px 5px 0px rgba(181, 189, 200, .1);
+	padding: 0;
+}
+.flexbox-item.footer {
+	position: static;
+	display: flex;
+	justify-content: center;
+	z-index: 2;
+	height: 60px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e0e0+0,757575+50,212121+100 */
+	background: #e0e0e0; /* Old browsers */
+	background: -moz-linear-gradient(top, #e0e0e0 0%, #757575 50%, #212121 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e0e0e0 0%, #757575 50%, #212121 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e0e0e0 0%, #757575 50%, #212121 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#212121', GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, .1);
+	-moz-box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, .1);
+	box-shadow: 0px -2px 5px 0px rgba(181, 189, 200, .1);
+	padding: 0;
+}
+.flexbox-item.content {
+	/*	background: rgba(255, 0, 255, .1);*/
+	background: #E0E0E0
+}
+.fill-area {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; /* align items in Main Axis */
+	align-items: stretch; /* align items in Cross Axis */
+	align-content: stretch; /* Extra space in Cross Axis */
+	padding: 0;
+}
+.box-center {
+	color: #1D1D1D;
+	width: 800px;
+	background: #FFFFFF;
+	flex-basis: auto;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
 	box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
+	border: 1px solid #DFDFDF;
+	padding: 8px;
 }
-#module-center {
-	margin: 0 auto;
-	background: #FFF;
-	width: 800px;
-	height: 100%;
+.header-inner, .footer-inner {
+	min-width: 800px;
+	height: 60px;
+	flex-basis: auto;
+	padding: 0 8px;
+}
+.header-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-inner h1 {
 	color: #000;
+	line-height: 60px;
+	font-family: 'Saira Condensed', sans-serif;
+/*	text-shadow: 1px -1px 0 #212121, -1px 1px 0 #212121, 1px 1px 0 #212121, -1px -1px 0 #212121;*/
+	text-shadow:	-1px -1px 0 #EEEEEE, -2px -2px 0 #E0E0E0,
+					-3px -3px 0 #BDBDBD, -4px -4px 0 #9E9E9E,
+					-5px -5px 0 #757575, -6px -6px 0 #616161,
+					-7px -7px 0 #424242, -8px -8px 0 #212121;
+}
+.fill-area-content {
+	/* Needed for when the area gets squished too far and there is content that can't be displayed */
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+}
+#header {
+	line-height: 60px;
+}
+article.info {
+	padding: 4px 8px;
+	width: 100%;
+	background: rgb(33,33,33,.25);
+	border: 1px dotted rgb(33,33,33,.50);
+	border-radius: 2px 12px 2px 12px;
 }
