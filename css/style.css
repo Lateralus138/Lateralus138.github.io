@@ -97,12 +97,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 	min-width: 800px;
 	height: 60px;
 	flex-basis: auto;
-	padding: 0 8px;
+	padding: 0;
 }
 .header-inner {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.footer-inner {
+	position: relative;
 }
 .header-inner h1 {
 	color: #000;
@@ -150,4 +153,11 @@ a.button_deco {
 .center {
 	margin: 0 auto;
 	text-align: center;
+}
+#html5 {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
 }
