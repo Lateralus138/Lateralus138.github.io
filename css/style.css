@@ -14,11 +14,10 @@ html, body {
 	padding: 0;
 }
 body {
-	background: #E0E0E0;
+	background: #E0E0E0; /**/
 	color: #212121;
 	font-size: 14px;
-	font-family: 'Saira Condensed', sans-serif;
-/*	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Saira Condensed', sans-serif;/*	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 .flexbox-parent {
 	width: 100%;
@@ -84,9 +83,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 }
 .box-center {
 	color: #1D1D1D;
-	width: 800px;
+	display: flex;
+	flex: 0 0 800px;
+	flex-direction: column;
 	background: #FFFFFF;
-	flex-basis: auto;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
 	box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1);
@@ -108,11 +108,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 	color: #000;
 	line-height: 60px;
 	font-family: 'Saira Condensed', sans-serif;
-/*	text-shadow: 1px -1px 0 #212121, -1px 1px 0 #212121, 1px 1px 0 #212121, -1px -1px 0 #212121;*/
-	text-shadow:	-1px -1px 0 #EEEEEE, -2px -2px 0 #E0E0E0,
-					-3px -3px 0 #BDBDBD, -4px -4px 0 #9E9E9E,
-					-5px -5px 0 #757575, -6px -6px 0 #616161,
-					-7px -7px 0 #424242, -8px -8px 0 #212121;
+	text-shadow: -1px -1px 0 #EEEEEE, -2px -2px 0 #E0E0E0,  -3px -3px 0 #BDBDBD, -4px -4px 0 #9E9E9E,  -5px -5px 0 #757575, -6px -6px 0 #616161,  -7px -7px 0 #424242, -8px -8px 0 #212121;
 }
 .fill-area-content {
 	/* Needed for when the area gets squished too far and there is content that can't be displayed */
@@ -123,10 +119,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 #header {
 	line-height: 60px;
 }
-article.info {
-	padding: 4px 8px;
-	width: 100%;
-	background: rgb(33,33,33,.25);
-	border: 1px dotted rgb(33,33,33,.50);
+.module {
+	background-color: rgb(33, 33, 33, .25);
+	border: 1px dotted rgb(33, 33, 33, .50);
 	border-radius: 2px 12px 2px 12px;
+}
+.info {
+	width: 100%;
+	padding: 4px 8px;
+}
+.button {
+	width: 372px;
+	padding: 0px;
+	font-size: 22px;
+	margin: 8px auto;
+	text-align: center;
+}
+a.button_deco {
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 2px black,  0 0 2px blue,  0 0 1px darkblue;
+}
+.info .alert, .info a {
+	font-size: 22px;
+}
+.highlight, .button a {
+	color: #b71c1c;
+}
+.center {
+	margin: 0 auto;
+	text-align: center;
 }
