@@ -170,3 +170,11 @@ a.button_deco {
 	left: 40px;
 	border: none;	
 }
+#cite {
+	font-size: 12px;
+	line-height: 32px;
+	position: absolute;
+	left: 76px;
+	bottom: 4px;
+	color: #FFF;
+}
