@@ -160,4 +160,13 @@ a.button_deco {
 	position: absolute;
 	bottom: 4px;
 	left: 4px;
+	border: none;
+}
+#css3 {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: 4px;
+	left: 40px;
+	border: none;	
 }
