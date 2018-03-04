@@ -135,7 +135,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 	width: 372px;
 	padding: 0px;
 	font-size: 22px;
-	margin: 8px auto;
+	margin: 8px auto 0;
 	text-align: center;
 }
 a.button_deco {
