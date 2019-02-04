@@ -212,10 +212,3 @@ button.grey:active {
 	border-top-color: #101010;
 	background: #101010;
 }
-button.grey a {
-	text-decoration: none;
-	color: #101010;
-}
-button.grey a:hover {
-	color: #E0E0E0;
-}
