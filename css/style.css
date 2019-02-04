@@ -212,3 +212,6 @@ button.grey:active {
 	border-top-color: #101010;
 	background: #101010;
 }
+p.links {
+	text-align: center;
+}
