@@ -111,7 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 	color: #000;
 	line-height: 60px;
 	font-family: 'Saira Condensed', sans-serif;
-	text-shadow: -1px -1px 0 #EEEEEE, -2px -2px 0 #E0E0E0,  -3px -3px 0 #BDBDBD, -4px -4px 0 #9E9E9E,  -5px -5px 0 #757575, -6px -6px 0 #616161,  -7px -7px 0 #424242, -8px -8px 0 #212121;
+	text-shadow: -1px -1px 0 #EEEEEE, -2px -2px 0 #E0E0E0, -3px -3px 0 #BDBDBD, -4px -4px 0 #9E9E9E, -5px -5px 0 #757575, -6px -6px 0 #616161, -7px -7px 0 #424242, -8px -8px 0 #212121;
 }
 .fill-area-content {
 	/* Needed for when the area gets squished too far and there is content that can't be displayed */
@@ -143,7 +143,7 @@ a.button_deco {
 	font-weight: 600;
 	text-decoration: none;
 	color: white;
-	text-shadow: 1px 1px 2px black,  0 0 2px blue,  0 0 1px darkblue;
+	text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 1px darkblue;
 }
 .info .alert, .info a {
 	font-size: 22px;
@@ -169,7 +169,7 @@ a.button_deco {
 	position: absolute;
 	bottom: 4px;
 	left: 40px;
-	border: none;	
+	border: none;
 }
 #cite {
 	font-size: 12px;
@@ -178,4 +178,44 @@ a.button_deco {
 	left: 76px;
 	bottom: 4px;
 	color: #FFF;
+}
+button.grey {
+	display: block;
+	margin: 0 auto;
+	border-top: 1px solid #ffffff;
+	background: #e0e0e0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#787878), to(#e0e0e0));
+	background: -webkit-linear-gradient(top, #787878, #e0e0e0);
+	background: -moz-linear-gradient(top, #787878, #e0e0e0);
+	background: -ms-linear-gradient(top, #787878, #e0e0e0);
+	background: -o-linear-gradient(top, #787878, #e0e0e0);
+	padding: 6.5px 13px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #101010;
+	font-size: 14px;
+	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	vertical-align: middle;
+}
+button.grey:hover {
+	border-top-color: #787878;
+	background: #787878;
+	color: #e0e0e0;
+}
+button.grey:active {
+	border-top-color: #101010;
+	background: #101010;
+}
+button.grey a {
+	text-decoration: none;
+	color: #101010;
+}
+button.grey a:hover {
+	color: #E0E0E0;
 }
