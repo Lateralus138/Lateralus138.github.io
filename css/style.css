@@ -283,6 +283,7 @@ p.links {
 }
 
 #DevTo {
+    margin: 0 auto;
     display: inline-block;
     vertical-align: middle;
 }
