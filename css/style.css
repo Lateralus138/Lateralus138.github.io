@@ -178,6 +178,7 @@ body {
     border: 1px dotted rgb(33, 33, 33, .50);
     border-radius: 2px 12px 2px 12px;
     margin: 8px auto 0;
+    display: block;
 }
 
 .info {
@@ -203,6 +204,11 @@ a.button_deco {
 .info .alert,
 .info a {
     font-size: 22px;
+}
+
+.block-center {
+    text-align: center;
+    display: block;
 }
 
 .highlight,
