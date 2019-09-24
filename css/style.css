@@ -301,3 +301,9 @@ p.links {
     margin-right: 10px;
     vertical-align: middle;
 }
+#Notable {
+	width: 800px;
+}
+#Notable td {
+	padding: 0 16px;
+}
