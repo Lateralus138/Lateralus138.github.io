@@ -112,6 +112,31 @@
                             <div id="myicon" class="ahk_icon"></div>
                             <!--<button class="grey"><a href="../Lateralus138.github.io/media/">Misc Media</button>-->
                     </article>
+                    <div id="userstyles">
+                        <div id="userstyles-container">
+                            <h3>My User Styles</h3>
+                            <script>
+                                if (window.addEventListener)
+                                    window.addEventListener("load", userstylesLoad, false);
+                                else if (window.attachEvent)
+                                    window.attachEvent("onload", userstylesLoad);
+
+                                function userstylesLoad() {
+                                    var c = document.getElementById("userstyles-container");
+                                    var s1 = document.createElement("script");
+                                    s1.setAttribute("async", "true");
+                                    var s2 = s1.cloneNode(false);
+                                    s1.src = "https://userstyles.org/widgets/v1.js";
+                                    c.appendChild(s1);
+                                    s2.src = "https://widget.userstyles.org/users/350128.jsonp?callback=userstyles.handleData";
+                                    c.appendChild(s2);
+                                }
+                            </script>
+                            <noscript>
+                            Check out <a href="https://userstyles.org/users/350128">My User Styles</a>
+                            </noscript>
+                        </div>
+                    </div>
                     <a class="block-center" href="#releases">Back to
                                 releases</a>
                 </div>
