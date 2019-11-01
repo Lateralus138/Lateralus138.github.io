@@ -315,6 +315,7 @@ p.links {
     width: 100%;
 }
 
-.metrored>p {
+p.metrored {
     color: #EE1111;
+    font-size: 20px;
 }
