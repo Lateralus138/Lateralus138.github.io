@@ -319,3 +319,16 @@ p.metrored {
     color: #EE1111;
     font-size: 20px;
 }
+
+#userstyles_widget {
+    width: 100%;
+}
+
+#userstyles_widget .widget {
+    width: 80%;
+    margin: 0 auto;
+    border-style: 2px solid #000000;
+}
+
+
+/* TODO: Finish UserStyles Widget */
