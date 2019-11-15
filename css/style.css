@@ -355,7 +355,7 @@ p.metrored {
 }
 
 .zoom1125:hover {
-    transform: scale(1.125);
+    transform: scale(1.125) rotate(360);
 }
 
 
