@@ -345,12 +345,16 @@ p.metrored {
     text-shadow: -2px -2px #000, 2px 2px #1C1C1C;
 }
 
-.zoom15 {
+.zoomspeed10 {
     transition: 0.10s linear;
 }
 
 .zoom15:hover {
     transform: scale(1.5);
+}
+
+.zoom1125:hover {
+    transform: scale(1.125);
 }
 
 
