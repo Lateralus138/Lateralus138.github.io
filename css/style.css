@@ -30,8 +30,7 @@ body {
 }
 
 body {
-    /* background: #E0E0E0; */
-    background: #1F1F1F;
+    background: #E0E0E0;
     /**/
     color: #212121;
     font-size: 14px;
@@ -50,7 +49,8 @@ body {
     /* align items in Cross Axis */
     align-content: stretch;
     /* Extra space in Cross Axis */
-    background: rgba(255, 255, 255, .1);
+    /* background: rgba(255, 255, 255, .1); */
+    background: #E0E0E0;
 }
 
 .flexbox-item {
