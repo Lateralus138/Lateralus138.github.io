@@ -50,7 +50,7 @@ body {
     align-content: stretch;
     /* Extra space in Cross Axis */
     /* background: rgba(255, 255, 255, .1); */
-    background: #E0E0E0;
+    background: #1F1F1F;
 }
 
 .flexbox-item {
