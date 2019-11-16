@@ -347,18 +347,18 @@ p.metrored {
 }
 
 .zoomspeed125 {
-    transition: 0.125s linear;
+    transition: 0.125s ease-in;
 }
 
 .zoomspeed25 {
-    transition: 0.25s linear;
+    transition: 0.25s ease-in;
 }
 
-.zoom125:hover {
-    transform: scale(1.25) rotate(360deg) skew(360deg, 360deg);
+.zoom125rotate360:hover {
+    transform: scale(1.25) rotate(360deg);
 }
 
-.zoom1125:hover {
+.zoom1125rotate360:hover {
     transform: scale(1.125) rotate(360deg);
 }
 
