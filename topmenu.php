@@ -1,3 +1,3 @@
 <?php
-	echo "<h2>Test<h2>";
+	echo "<h2 span=\"color: red;\">Test<h2>";
 ?>
