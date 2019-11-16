@@ -346,12 +346,16 @@ p.metrored {
     text-shadow: -2px -2px #000, 2px 2px #1C1C1C;
 }
 
-.zoomspeed10 {
-    transition: 0.10s linear;
+.zoomspeed125 {
+    transition: 0.125s linear;
 }
 
-.zoom15:hover {
-    transform: scale(1.5) rotate(360deg);
+.zoomspeed25 {
+    transition: 0.25s linear;
+}
+
+.zoom125:hover {
+    transform: scale(1.25) rotate(360deg) skew(360deg, 360deg);
 }
 
 .zoom1125:hover {
