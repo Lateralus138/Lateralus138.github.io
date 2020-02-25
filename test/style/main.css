@@ -41,8 +41,7 @@ body {
 .top-bar {
     position: relative;
     z-index: 2;
-    flex: 1;
-    height: 40px;
+    min-height: 40px;
     width: vw;
     background-color: var(--grey-dark);
     /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AIYFDoSY1N7uQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAJElEQVQI12MUFBT8z4AEWBgYGBiUlJTgAozIKpSUlBiY0FUAAJEIA5988Eb3AAAAAElFTkSuQmCC) repeat; */
