@@ -41,6 +41,7 @@ body {
 .top-bar {
     position: relative;
     z-index: 2;
+    flex: 1;
     height: 40px;
     width: vw;
     background-color: var(--grey-dark);
