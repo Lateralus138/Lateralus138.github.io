@@ -103,6 +103,7 @@ body {
     flex: 8;
     background-color: var(--white);
     color: var(--black);
+    box-shadow: 0 0 4px 0 var(--white);
 }
 
 .main-body-wrapper .body .inner-body-wrapper .footer {
