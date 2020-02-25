@@ -121,3 +121,7 @@ body {
     border-right: 1px solid var(--grey-darker);
     box-shadow: 0px 0px 2px 0px var(--dark);
 }
+
+.center {
+    text-align: center;
+}
