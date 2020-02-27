@@ -9,10 +9,12 @@ function changeLeftWidth() {
     if (tog === true) {
         for (var i = 0; i < cl.length; i++) {
             cl[i].style.width = (16 + "px");
+            cl[i].style.transform = ("rotate(90deg)");
         }
     } else {
         for (var i = 0; i < cl.length; i++) {
             cl[i].style.width = (140 + "px");
+            cl[i].style.transform = ("rotate(0deg)");
         }
     }
 }
