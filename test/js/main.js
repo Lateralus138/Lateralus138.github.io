@@ -3,9 +3,8 @@ function changeLeftWidth() {
     elem = document.querySelector('.left');
     style = getComputedStyle(elem);
     if (style.width == "140px") {
-        alert('here');
-        style.width = "16px";
+        document.getElementsByClassName('left').style.width = "16px";
         return
     }
-    style.width = "140px";
+    document.getElementsByClassName('left').style.width = "140px";
 }
