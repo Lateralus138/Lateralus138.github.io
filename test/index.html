@@ -16,16 +16,18 @@
 
 <body>
     <div class="page-container">
-        <div class="top-bar center">Menu Bar</div>
+        <div class="top-bar center">
+            <h2>Menu Bar - I will possibly make this collapsable</h2>
+        </div>
         <div class="main-body-wrapper">
-            <div class="left" onclick="changeLeftWidth();">
-                <h6>Left</h6>
+            <div id="left-menu" class="left" onclick='changeLeftMenu();'>
+                <h4 id="left-h4">Left Menu</h4>
             </div>
-            <div class="body">
+            <div id="ibody-wrap" class="body">
                 <div class="inner-body-wrapper">
-                    <div class="header center">Header</div>
-                    <div class="body">Body</div>
-                    <div class="footer center">Footer</div>
+                    <div id="mainHeader" class="header center">Header</div>
+                    <div id="mainBody" class="body">Body</div>
+                    <div id="mainFooter" class="footer center">Footer</div>
                 </div>
             </div>
             <div class="right">
@@ -33,6 +35,7 @@
             </div>
         </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
