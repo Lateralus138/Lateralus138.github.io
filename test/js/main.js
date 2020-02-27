@@ -7,14 +7,12 @@ function changeLeftWidth() {
     style = getComputedStyle(elem)[0];
     cl = document.getElementsByClassName('left')
     if (tog === true) {
-        alert(true);
-        for (var i = 0; i < elem.length; i++) {
-            elem[i].style.width = (16 + "px");
+        for (var i = 0; i < cl.length; i++) {
+            cl[i].style.width = (16 + "px");
         }
     } else {
-        alert(false);
-        for (var i = 0; i < elem.length; i++) {
-            elem[i].style.width = (140 + "px");
+        for (var i = 0; i < cl.length; i++) {
+            cl[i].style.width = (140 + "px");
         }
     }
 }
