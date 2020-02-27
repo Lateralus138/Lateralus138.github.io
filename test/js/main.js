@@ -8,7 +8,7 @@ function changeLeftWidth() {
     cl = document.getElementsByClassName('left');
     tag = document.getElementsByTagName('h6');
     for (i = 0; i < tag.length; i++) {
-        alert(tag[i]);
+        alert(tag[i].width);
     }
     if (tog === true) {
         for (var i = 0; i < cl.length; i++) {
