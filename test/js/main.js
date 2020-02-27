@@ -7,7 +7,7 @@ function changeLeftWidth() {
     style = getComputedStyle(elem)[0];
     cl = document.getElementsByClassName('left');
     tag = document.getElementsByTagName('h6');
-    alert(tag[0].style.width);
+    alert(tag.style.width);
     if (tog === true) {
         for (var i = 0; i < cl.length; i++) {
             cl[i].style.width = (16 + "px");
