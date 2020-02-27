@@ -44,8 +44,6 @@ body {
     min-height: 100px;
     width: vw;
     background-color: var(--grey-dark);
-    /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AIYFDoSY1N7uQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAJElEQVQI12MUFBT8z4AEWBgYGBiUlJTgAozIKpSUlBiY0FUAAJEIA5988Eb3AAAAAElFTkSuQmCC) repeat; */
-    /* border-bottom: 1px solid var(--dark); */
 }
 
 .main-body-wrapper {
@@ -59,7 +57,6 @@ body {
 .main-body-wrapper .left {
     width: 140px;
     background-color: var(--grey-dark);
-    /* border-right: 1px solid var(--grey-transition); */
     border-top: 1px solid var(--grey-darker);
 }
 
@@ -72,7 +69,6 @@ body {
 .main-body-wrapper .right {
     width: 16px;
     background-color: var(--grey-dark);
-    /* border-left: 1px solid var(--grey-darker); */
     border-top: 1px solid var(--grey-darker);
 }
 
