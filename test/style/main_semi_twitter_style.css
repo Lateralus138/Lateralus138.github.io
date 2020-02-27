@@ -65,12 +65,12 @@ body {
 
 .main-body-wrapper .body {
     flex: 3;
-    min-width: 212px;
+    min-width: 200px;
     background-color: var(--white);
 }
 
 .main-body-wrapper .right {
-    width: 16px;
+    width: 140px;
     background-color: var(--grey-dark);
     /* border-left: 1px solid var(--grey-darker); */
     border-top: 1px solid var(--grey-darker);
@@ -124,8 +124,4 @@ body {
 
 .center {
     text-align: center;
-}
-
-.right_90deg {
-    transform: rotate(90deg);
 }
