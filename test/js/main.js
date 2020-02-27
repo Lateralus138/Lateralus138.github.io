@@ -1,6 +1,8 @@
+var tog = false;
+
 function changeLeftWidth() {
     var elem, style, cl;
-    var tog = !tog;
+    tog = !tog;
     elem = document.querySelector('.left');
     style = getComputedStyle(elem)[0];
     cl = document.getElementsByClassName('left')
