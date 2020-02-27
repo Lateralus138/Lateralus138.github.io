@@ -1,4 +1,4 @@
 function changeLeftWidth() {
-    var leftWidth = document.getElementsByClassName('left').offsetWidth;
+    var leftWidth = document.getElementsByClassName("left").offsetWidth;
     alert(leftWidth);
 }
