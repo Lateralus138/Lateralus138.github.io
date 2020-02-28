@@ -14,24 +14,27 @@
     <script src="js/main.js"></script>
 </head>
 
-<body>
+<body onresize="addEvent(window, 'resize', onResize);" onload="onResize();">
     <div class="page-container">
         <div class="top-bar center">
             <h2>Menu Bar - I will possibly make this collapsable</h2>
         </div>
         <div class="main-body-wrapper">
-            <div id="left-menu" class="left" onclick='changeLeftMenu();'>
-                <h4 id="left-h4">Left Menu</h4>
+            <div id="left-menu" class="left" onclick='changeLeftMenu();' onresize="onRes();">
+                <h4 id="left-h4">Menu</h4>
+                <p id="arrow" style="width: 12px;float: right;">></p>
+
             </div>
             <div id="ibody-wrap" class="body">
                 <div class="inner-body-wrapper">
-                    <div id="mainHeader" class="header center">Header</div>
+                    <div id="mainHeader" class="header center">
+                        <p>Welcome to The Flux Apex</p>
+                    </div>
                     <div id="mainBody" class="body">Body</div>
                     <div id="mainFooter" class="footer center">Footer</div>
                 </div>
             </div>
             <div class="right">
-                <p class="right_90deg">Right</p>
             </div>
         </div>
     </div>

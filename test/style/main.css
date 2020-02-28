@@ -38,6 +38,11 @@ body {
     white-space: nowrap;
 }
 
+#arrow {
+    font-weight: bolder;
+    margin-right: 2px;
+}
+
 .page-container {
     min-width: 370px;
     display: flex;
@@ -68,6 +73,7 @@ body {
     width: 16px;
     background-color: var(--grey-dark);
     border-top: 1px solid var(--grey-darker);
+    vertical-align: center;
 }
 
 .main-body-wrapper .body {
