@@ -20,7 +20,12 @@ html, body {
 	width: 100%;
     height: 100%; 
 }
-
+.button {
+	border-radius: 8px;
+	background-color: #1372B7;
+	border: 2px;
+	margin: 0 8px;
+}
 </style>
 
 <link href="SetWinIcon_HTML_embed.css" rel="stylesheet" type="text/css">
@@ -29,10 +34,10 @@ html, body {
 <iframe class="tscplayer_inline" id="embeddedSmartPlayerInstance" src="SetWinIcon_HTML_player.html?embedIFrameId=embeddedSmartPlayerInstance" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 <br>
 <div style="display: inline-flex;">
-	<button style="border-radius: 4px; background-color: #FF0000;" id="home" type="button" onClick="location.href='https://lateralus138.github.io/'">
+	<button class="button" id="io" type="button" onClick="location.href='https://lateralus138.github.io/'">
 		My GitHub IO
 	</button>
-	<button id="home" type="button" onClick="location.href='https://github.com/Lateralus138/'">
+	<button class="button" id="repo" type="button" onClick="location.href='https://github.com/Lateralus138/'">
 		My Main Repo
 	</button>
 </div>>
