@@ -1,0 +1,46 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+	font-family: 'Titillium Web', sans-serif;
+}
+.main-container {
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    min-height: 100%;
+    height: auto !important;
+	height: 100%;
+}
+nav.top-menu {
+	min-height: 100px;
+	display: inline-block;
+	background: #1D1D1D;
+}
+nav.top-menu a {
+	background: #1D1D1D;
+	display: inline-block;
+	padding: 0 32px;
+	line-height: 100px;
+	height: 100px;
+	float: left;
+	color: #FFC40D;
+	font-size: 1.4em;
+	text-decoration: none;
+	transition: background 0.5s ease-out,
+				color 0.5s ease-out;
+}
+nav.top-menu a:hover {
+	background: #FFC40D;
+	color: #1D1D1D;
+	transition: background 0.5s ease-out,
+				color 0.5s ease-out;
+}
+nav.top-menu .active {
+	background: #FFC40D;
+	color: #1D1D1D;
+	transition: background 0.5s ease-out,
+				color 0.5s ease-out;
+}
