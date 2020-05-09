@@ -2,7 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	overflow: hidden;
+	overflow: auto;
 	font-family: 'Titillium Web', sans-serif;
 }
 .main-container {
@@ -13,7 +13,7 @@ html, body {
 	height: 100%;
 }
 nav.top-menu {
-	min-height: 100px;
+	min-height: 60px;
 	display: inline-flex;
 	background: #1D1D1D;
 }
@@ -21,24 +21,28 @@ nav.top-menu a {
 	background: #1D1D1D;
 	white-space: nowrap;
 	padding: 0 32px;
-	line-height: 100px;
-	height: 100px;
+	line-height: 60px;
+	height: 60px;
 	float: left;
-	color: #FFC40D;
+	color: #E3A21A;
 	font-size: 1.4em;
 	text-decoration: none;
 	transition: background 0.5s ease-out,
 				color 0.5s ease-out;
 }
 nav.top-menu a:hover {
-	background: #FFC40D;
+	background: #E3A21A;
 	color: #1D1D1D;
 	transition: background 0.5s ease-out,
 				color 0.5s ease-out;
 }
 nav.top-menu .active {
-	background: #FFC40D;
+	background: #E3A21A;
 	color: #1D1D1D;
 	transition: background 0.5s ease-out,
 				color 0.5s ease-out;
+}
+nav.top-menu .title {
+	width: 100%;
+	float: right;
 }
