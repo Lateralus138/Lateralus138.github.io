@@ -6,22 +6,20 @@ html, body {
 	font-family: 'Titillium Web', sans-serif;
 }
 .main-container {
-	overflow: auto;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
     min-height: 100%;
     height: auto !important;
 	height: 100%;
 }
 nav.top-menu {
 	min-height: 100px;
-	display: inline-block;
+	display: inline-flex;
 	background: #1D1D1D;
 }
 nav.top-menu a {
 	background: #1D1D1D;
-	display: inline-block;
+	white-space: nowrap;
 	padding: 0 32px;
 	line-height: 100px;
 	height: 100px;
