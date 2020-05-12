@@ -77,18 +77,21 @@ nav.top-menu .title {
 	padding: 16px;
 }
 @media (max-width: 480px) {
+	.main-container {
+		min-width: 100vw;
+	}
 	.main-body {
-		min-width: 100%;
+		min-width: 100vw;
 	}
 	nav.top-menu {
-		width: 100%;
+		width: 100vw;
 		display: flex;
 		flex-direction: column;
 	}
 	nav.top-menu a {
-		width: 100%;
+		width: 100vw;
 	}
 	nav.top-menu .title {
-		width: 100%;
+		width: 100vw;
 	}
 } 
