@@ -11,7 +11,7 @@ html, body {
     min-height: 100%;
     height: auto !important;
 	height: 100%;
-/*	width: 100%;*/
+	min-width: 480px;
 }
 nav.top-menu {
 	min-height: 60px;
@@ -55,3 +55,11 @@ nav.top-menu .title {
 	margin: 0;
 	padding: 16px;
 }
+@media only screen and (max-width: 480px) {
+	nav.top-menu {
+		display: block;
+	}
+	nav.top-menu a {
+		width: 100%;
+	}
+} 
