@@ -4,6 +4,7 @@ html, body {
 	height: 100%;
 	overflow: auto;
 	font-family: 'Titillium Web', sans-serif;
+	min-width: 480px;
 }
 .main-container {
 	display: flex;
@@ -17,7 +18,6 @@ nav.top-menu {
 	display: inline-flex;
 	background: #1D1D1D;
 	width: 100%;
-	margin: 0 auto;
 }
 nav.top-menu a {
 	background: #1D1D1D;
@@ -47,19 +47,21 @@ nav.top-menu .active {
 }
 nav.top-menu .title {
 	width: 100%;
-/*	float: right;*/
 }
 .main-body {
 	margin: 0;
 	padding: 16px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 520px) {
 	nav.top-menu {
-		text-align: center;
-		margin: 0 auto;
-		display: block;
+		width: 94%;
+		display: flex;
+		flex-direction: column;
 	}
 	nav.top-menu a {
-		width: 100%;
+		width: 92%;
+	}
+	nav.top-menu .title {
+		width: 92%;
 	}
 } 
