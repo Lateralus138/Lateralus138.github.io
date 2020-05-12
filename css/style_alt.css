@@ -33,13 +33,13 @@ html, body {
     min-height: 100%;
     height: auto !important;
 	height: 100%;
-	width: 100%;
+	width: auto;
 }
 nav.top-menu {
 	min-height: 60px;
 	display: inline-flex;
 	background: var(--color-dark);
-	width: 100%;
+	width: auto;
 }
 nav.top-menu a {
 	background: var(--color-dark);
@@ -68,7 +68,7 @@ nav.top-menu .active {
 				color 0.5s ease-out;
 }
 nav.top-menu .title {
-	width: 100%;
+	width: auto;
 }
 .main-body {
 /*	width: auto;*/
