@@ -68,7 +68,7 @@ nav.top-menu .active {
 				color 0.5s ease-out;
 }
 nav.top-menu .title {
-	width: auto;
+	width: 100%;
 }
 .main-body {
 /*	width: auto;*/
