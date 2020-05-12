@@ -29,6 +29,7 @@ nav.top-menu a {
 	float: left;
 	color: #E3A21A;
 	font-size: 1.4em;
+	text-align: center;
 	text-decoration: none;
 	transition: background 0.5s ease-out,
 				color 0.5s ease-out;
@@ -47,7 +48,7 @@ nav.top-menu .active {
 }
 nav.top-menu .title {
 	width: 100%;
-	float: right;
+/*	float: right;*/
 }
 .main-body {
 /*	display: block;*/
