@@ -1,10 +1,31 @@
+:root {
+	--color-red: #EE1111;
+	--color-dk-red: #B91D47;
+	--color-lt-green: #99B433;
+	--color-green: #00A300;
+	--color-dk-green: #1E7145;
+	--color-lt-blue: #EFF4FF;
+	--color-blue: #2D89EF;
+	--color-dk-blue: #2B5797;
+	--color-cyan: #00ABA9;
+	--color-yellow: #E3A21A;
+	--color-magenta: #FF0097;
+	--color-lt-purple: #9F00A7;
+	--color-purple: #7E3878;
+	--color-dk-purple: #603CBA;
+	--color-orange: #E3A21A;
+	--color-dk-orange: #DA532C;
+	--color-black: #000000;
+	--color-dark: #1D1D1D;
+	--color-white: #FFFFFF;
+	--color-light: #EDEDED;
+}
 html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	overflow: auto;
 	font-family: 'Titillium Web', sans-serif;
-	min-width: 480px;
 }
 .main-container {
 	display: flex;
@@ -12,21 +33,22 @@ html, body {
     min-height: 100%;
     height: auto !important;
 	height: 100%;
+	width: 100%;
 }
 nav.top-menu {
 	min-height: 60px;
 	display: inline-flex;
-	background: #1D1D1D;
+	background: var(--color-dark);
 	width: 100%;
 }
 nav.top-menu a {
-	background: #1D1D1D;
+	background: var(--color-dark);
 	white-space: nowrap;
 	padding: 0 32px;
 	line-height: 60px;
 	height: 60px;
 	float: left;
-	color: #E3A21A;
+	color: var(--color-yellow);
 	font-size: 1.4em;
 	text-align: center;
 	text-decoration: none;
@@ -34,14 +56,14 @@ nav.top-menu a {
 				color 0.5s ease-out;
 }
 nav.top-menu a:hover {
-	background: #E3A21A;
-	color: #1D1D1D;
+	background: var(--color-yellow);
+	color: var(--color-dark);
 	transition: background 0.5s ease-out,
 				color 0.5s ease-out;
 }
 nav.top-menu .active {
-	background: #E3A21A;
-	color: #1D1D1D;
+	background: var(--color-yellow);
+	color: var(--color-dark);
 	transition: background 0.5s ease-out,
 				color 0.5s ease-out;
 }
@@ -49,19 +71,24 @@ nav.top-menu .title {
 	width: 100%;
 }
 .main-body {
-	margin: 0;
+	width: auto;
+	min-width: 960px;
+/*	margin: 0 auto;*/
 	padding: 16px;
 }
-@media only screen and (max-width: 520px) {
+@media (max-width: 480px) {
+	.main-body {
+		min-width: 100%;
+	}
 	nav.top-menu {
-		width: 94%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 	}
 	nav.top-menu a {
-		width: 92%;
+		width: 100%;
 	}
 	nav.top-menu .title {
-		width: 92%;
+		width: 100%;
 	}
 } 
