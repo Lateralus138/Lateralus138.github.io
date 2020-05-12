@@ -11,11 +11,14 @@ html, body {
     min-height: 100%;
     height: auto !important;
 	height: 100%;
+/*	width: 100%;*/
 }
 nav.top-menu {
 	min-height: 60px;
 	display: inline-flex;
 	background: #1D1D1D;
+	width: 100%;
+	margin: 0 auto;
 }
 nav.top-menu a {
 	background: #1D1D1D;
@@ -45,4 +48,10 @@ nav.top-menu .active {
 nav.top-menu .title {
 	width: 100%;
 	float: right;
+}
+.main-body {
+/*	display: block;*/
+/*	width: 100%;*/
+	margin: 0;
+	padding: 16px;
 }
