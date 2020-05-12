@@ -50,13 +50,13 @@ nav.top-menu .title {
 /*	float: right;*/
 }
 .main-body {
-/*	display: block;*/
-/*	width: 100%;*/
 	margin: 0;
 	padding: 16px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
 	nav.top-menu {
+		text-align: center;
+		margin: 0 auto;
 		display: block;
 	}
 	nav.top-menu a {
