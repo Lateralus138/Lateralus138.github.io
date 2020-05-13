@@ -101,8 +101,10 @@ nav.top-menu .title {
   display: block;
 }
 @media only screen and (max-width: 480px) {
-  .main-container, .main-body, nav.top-menu, nav.top-menu .title, nav.top-menu a {
+  .main-body {
     min-width: auto;
+  }
+  .main-container, nav.top-menu, nav.top-menu .title, nav.top-menu a {
     width: auto;
   }
   nav.top-menu {
