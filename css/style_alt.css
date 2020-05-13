@@ -1,102 +1,117 @@
 :root {
-	--color-red: #EE1111;
-	--color-dk-red: #B91D47;
-	--color-lt-green: #99B433;
-	--color-green: #00A300;
-	--color-dk-green: #1E7145;
-	--color-lt-blue: #EFF4FF;
-	--color-blue: #2D89EF;
-	--color-dk-blue: #2B5797;
-	--color-cyan: #00ABA9;
-	--color-yellow: #E3A21A;
-	--color-magenta: #FF0097;
-	--color-lt-purple: #9F00A7;
-	--color-purple: #7E3878;
-	--color-dk-purple: #603CBA;
-	--color-orange: #E3A21A;
-	--color-dk-orange: #DA532C;
-	--color-black: #000000;
-	--color-dark: #1D1D1D;
-	--color-white: #FFFFFF;
-	--color-light: #EDEDED;
+  --color-red: #EE1111;
+  --color-dk-red: #B91D47;
+  --color-lt-green: #99B433;
+  --color-green: #00A300;
+  --color-dk-green: #1E7145;
+  --color-lt-blue: #EFF4FF;
+  --color-blue: #2D89EF;
+  --color-dk-blue: #2B5797;
+  --color-cyan: #00ABA9;
+  --color-yellow: #E3A21A;
+  --color-magenta: #FF0097;
+  --color-lt-purple: #9F00A7;
+  --color-purple: #7E3878;
+  --color-dk-purple: #603CBA;
+  --color-orange: #E3A21A;
+  --color-dk-orange: #DA532C;
+  --color-black: #000000;
+  --color-dark: #1D1D1D;
+  --color-white: #FFFFFF;
+  --color-light: #EDEDED;
 }
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	overflow: auto;
-	font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  font-family: 'Titillium Web', sans-serif;
 }
 header {
-	text-align: center;
-	width: auto;
+  text-align: center;
+  width: auto;
 }
-p.main-paragraph {
-	text-indent: 2em;
+p.indent {
+  text-indent: 2em;
 }
 .main-container {
-	display: flex;
-	flex-direction: column;
-    min-height: 100%;
-    height: auto !important;
-	height: 100%;
-	width: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  width: auto;
 }
 nav.top-menu {
-	min-height: 60px;
-	display: inline-flex;
-	background: var(--color-dark);
-	width: auto;
+  min-height: 60px;
+  display: inline-flex;
+  background: var(--color-dark);
+  width: auto;
 }
 nav.top-menu a {
-	background: var(--color-dark);
-	white-space: nowrap;
-	padding: 0 32px;
-	line-height: 60px;
-	height: 60px;
-	float: left;
-	color: var(--color-yellow);
-	font-size: 1.4em;
-	text-align: center;
-	text-decoration: none;
-	transition: background 0.5s ease-out,
-				color 0.5s ease-out;
+  background: var(--color-dark);
+  white-space: nowrap;
+  padding: 0 32px;
+  line-height: 60px;
+  height: 60px;
+  float: left;
+  color: var(--color-yellow);
+  font-size: 1.4em;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.5s ease-out, color 0.5s ease-out;
 }
 nav.top-menu a:hover {
-	background: var(--color-yellow);
-	color: var(--color-dark);
-	transition: background 0.5s ease-out,
-				color 0.5s ease-out;
+  background: var(--color-yellow);
+  color: var(--color-dark);
+  transition: background 0.5s ease-out, color 0.5s ease-out;
 }
 nav.top-menu .active {
-	background: var(--color-yellow);
-	color: var(--color-dark);
-	transition: background 0.5s ease-out,
-				color 0.5s ease-out;
+  background: var(--color-yellow);
+  color: var(--color-dark);
+  transition: background 0.5s ease-out, color 0.5s ease-out;
 }
 nav.top-menu .title {
-	width: 100%;
+  width: 100%;
 }
 .main-body {
-	min-width: 960px;
-	padding: 16px;
+  min-width: 960px;
+  padding: 16px;
+}
+.placard {
+  background: rgba(29, 29, 29, 1);
+  border: 1px solid rgba(29, 29, 29, 0.25);
+  color: var(--color-white);
+  padding: 8px;
+  margin: 4px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  font-size: 16px;
+  display: inline-block;
+}
+.placard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+.force-width-auto {
+  width: auto;
+}
+.force-display-block {
+  display: block;
 }
 @media only screen and (max-width: 480px) {
-	.main-container {
-		min-width: auto;
-	}
-	.main-body {
-		min-width: auto;
-	}
-	nav.top-menu {
-		width: auto;
-		display: flex;
-		flex-direction: column;
-	}
-	nav.top-menu a {
-		width: auto;
-	}
-	nav.top-menu .title {
-		width: auto;
-	}
-} 
+  .main-container, .main-body, nav.top-menu, nav.top-menu .title, nav.top-menu a {
+    min-width: auto;
+    width: auto;
+  }
+  nav.top-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  nav.top-menu a {
+    line-height: 40px;
+    height: 40px;
+    font-size: 1.2em;
+  }
+}
