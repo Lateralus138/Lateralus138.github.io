@@ -40,7 +40,7 @@ p.indent {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  width: auto;
+  min-width: 960px;
 }
 nav.top-menu {
   min-height: 60px;
@@ -101,7 +101,7 @@ nav.top-menu .title {
   display: block;
 }
 @media only screen and (max-width: 480px) {
-  .main-body {
+  .main-container, .main-body {
     min-width: auto;
   }
   .main-container, nav.top-menu, nav.top-menu .title, nav.top-menu a {
