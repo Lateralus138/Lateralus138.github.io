@@ -52,7 +52,7 @@ p.indent {
   height: auto !important;
   height: 100%;
   min-width: 1024px;
-  margin-bottom: -120px;
+  margin-bottom: -122px;
 }
 .main-container:after {
   content: "";
