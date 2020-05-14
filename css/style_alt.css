@@ -184,6 +184,6 @@ nav.links ul li a:hover {
     margin: 0;
   }
   .validate-box {
-    clear: both;
+	  float: left;
   }
 }
