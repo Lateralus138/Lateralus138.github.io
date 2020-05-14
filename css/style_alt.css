@@ -29,6 +29,14 @@ html, body {
   font-family: 'Titillium Web', sans-serif;
   background: var(--color-light);
   color: var(--color-light);
+	position: relative;
+}
+html {
+	min-height: 100%;
+}
+body {
+	min-height: 100vh;
+	width: 100%;
 }
 header {
   text-align: center;
@@ -44,6 +52,11 @@ p.indent {
   height: auto !important;
   height: 100%;
   min-width: 1024px;
+  margin-bottom: -120px;
+}
+.main-container:after {
+  content: "";
+  display: block;
 }
 nav.top-menu {
   min-height: 60px;
@@ -64,6 +77,7 @@ nav.top-menu a {
   text-align: center;
   text-decoration: none;
   transition: background 0.5s ease-out, color 0.5s ease-out, box-shadow 0.5s ease-out;
+  border-bottom: 1px solid rgba(29,29,29,0.25);
 }
 nav.top-menu a:hover {
   box-shadow: 0 4px 16px 2px rgba(227, 162, 26, 0.2);
@@ -81,6 +95,7 @@ nav.top-menu .title {
 }
 .main-body {
   padding: 16px;
+  margin: 0 0 120px;
 }
 .placard {
   background: var(--color-white);
@@ -118,6 +133,14 @@ nav.top-menu .title {
 }
 .dark-text {
   color: var(--color-dark);
+}
+.footer {
+	width: 100%;
+	height: 120px;
+	background: var(--color-yellow);
+	min-width: 1024px;
+	float: left;
+	border-top: 1px solid rgba(29,29,29,0.25);
 }
 @media only screen and (max-width: 480px) {
   .main-container, .main-body, nav.top-menu {
