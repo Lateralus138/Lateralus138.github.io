@@ -30,6 +30,7 @@ p.indent {
   height: 100%;
   min-width: 1024px;
   margin-bottom: -122px;
+  background: #FAFAFA;
 }
 .main-container:after {
   content: "";
@@ -41,6 +42,7 @@ nav.top-menu {
   background: #1D1D1D;
   min-width: 990px;
   width: auto;
+  box-shadow: 0px 0px 8px rgba(227, 162, 26, 1);
 }
 nav.top-menu a {
   background: #1D1D1D;
@@ -54,13 +56,16 @@ nav.top-menu a {
   text-align: center;
   text-decoration: none;
   transition: background 0.5s ease-out, color 0.5s ease-out, box-shadow 0.5s ease-out;
-  border-bottom: 1px solid rgba(29, 29, 29, 0.25);
+  border-bottom: 1px solid rgba(29, 29, 29, 0.5);
 }
 nav.top-menu a:hover {
-  box-shadow: 0 4px 16px 2px rgba(227, 162, 26, 0.2);
+  box-shadow: 0px 4px 16px 0px rgba(227, 162, 26, 1);
   background: #E3A21A;
   color: #1D1D1D;
   transition: background 0.5s ease-out, color 0.5s ease-out, box-shadow 0.5s ease-out;
+	border-bottom: 1px solid rgba(29, 29, 29, 0.25);
+	border-left: 1px solid rgba(29, 29, 29, 0.25);
+	border-right: 1px solid rgba(29, 29, 29, 0.25);
 }
 nav.top-menu .active {
   background: #E3A21A;
@@ -112,12 +117,13 @@ nav.top-menu .title {
   color: #1D1D1D;
 }
 .footer {
+  box-shadow: 0px 0px 8px rgba(227, 162, 26, 1);
   width: 100%;
   height: 120px;
   background: #E3A21A;
   min-width: 1024px;
   float: left;
-  border-top: 1px solid rgba(29, 29, 29, 0.25);
+  border-top: 1px solid rgba(29, 29, 29, 0.66);
 }
 .validate-box {
   float: right;
@@ -157,6 +163,8 @@ nav.links ul li a:hover {
   text-shadow: 1px 1px #1D1D1D, 0 0 8px #FFFFFF;
   transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
 }
+div.under-construction {}
+div.under-construction div {}
 @media only screen and (max-width: 480px) {
   .main-container, .main-body, nav.top-menu {
     min-width: auto;
@@ -173,6 +181,9 @@ nav.links ul li a:hover {
     height: 40px;
     font-size: 1.2em;
   }
+  nav.top-menu a:hover {
+    box-shadow: 0px 0px 16px 0px rgba(227, 162, 26, 1);
+  }
   .footer {
     min-width: auto;
     height: auto !important;
@@ -184,6 +195,6 @@ nav.links ul li a:hover {
     margin: 0;
   }
   .validate-box {
-	  float: left;
+    float: left;
   }
 }
