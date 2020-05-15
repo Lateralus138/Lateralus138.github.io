@@ -32,7 +32,7 @@ p.indent {
   margin-bottom: -122px;
   background: #FAFAFA;
 }
-.main-container:after {
+.main-container::after {
   content: "";
   display: block;
 }
@@ -163,8 +163,38 @@ nav.links ul li a:hover {
   text-shadow: 1px 1px #1D1D1D, 0 0 8px #FFFFFF;
   transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
 }
-div.under-construction {}
-div.under-construction div {}
+div.under-construction {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(29,29,29,0.25);
+	width: 320px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgba(227, 162, 26, 0.5);
+	color: #1D1D1D;
+	margin: 0 auto;
+	padding: 0;
+}
+div.under-construction:hover {
+	box-shadow: 0 0 8px rgba(227, 162, 26, 1);
+}
+div.under-construction img {
+	width: 100%;
+	border: none;
+/*	border-bottom: 1px solid rgba(29,29,29,0.40);*/
+}
+div.under-construction div {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border: 1px solid rgba(29,29,29,0.25);
+	background: #E3A21A;
+	padding: 8px;
+}
+div.under-construction div p.head {
+	text-align: center;
+	font-size: 1.8em;
+	margin: 0;
+}
 @media only screen and (max-width: 480px) {
   .main-container, .main-body, nav.top-menu {
     min-width: auto;
