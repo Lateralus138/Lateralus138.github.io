@@ -19,6 +19,10 @@ header {
     text-align: center;
     width: auto;
 }
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
 p.indent {
     text-indent: 2em;
 }
@@ -208,6 +212,35 @@ div.under-construction div p.head {
     font-size: 1.8em;
     margin: 0;
 }
+div.media-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div.media-thumbs div {
+    background: #E3A21A;
+    width: 166px;
+    padding: 8px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin: 8px auto;
+}
+div.media-thumbs div h4 {
+    text-align: center;
+}
+div.media-thumbs div a {
+    text-decoration: none;
+}
+div.media-thumbs div a img {
+    background: #FFFFFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding: 8px;
+    width: 148px;
+}
+div.media-thumbs div a img:hover {
+    box-shadow: 0 0 2px 0px rgba(29,29,29,0.5);
+}
 @media only screen and (max-width: 480px) {
     .main-container, .main-body, nav.top-menu {
         min-width: auto;
@@ -249,5 +282,8 @@ div.under-construction div p.head {
         position: relative;
         top: 4px;
         margin: 4px 2px 4px;
+    }
+    div.media-thumbs {
+        flex-direction: column;
     }
 }
