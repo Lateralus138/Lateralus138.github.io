@@ -156,7 +156,6 @@ nav.top-menu .title {
     float: right;
     display: inline-block;
     margin: 16px;
-    /*	clear: both;*/
 }
 
 .validate-box img {
@@ -276,10 +275,13 @@ div.media-thumbs div a img {
     border-radius: 4px;
     padding: 8px;
     width: 148px;
+    transition: all 0.3s linear;
 }
 
 div.media-thumbs div a img:hover {
     box-shadow: 0 0 2px 0px rgba(29, 29, 29, 0.5);
+    transform: scale(1.2);
+    transition: all 0.3s linear;
 }
 
 @media only screen and (max-width: 480px) {
