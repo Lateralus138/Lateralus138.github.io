@@ -154,7 +154,7 @@ nav.top-menu .title {
 
 .validate-box {
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 16px;
     /*	clear: both;*/
 }
