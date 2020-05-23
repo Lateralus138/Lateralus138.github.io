@@ -6,10 +6,11 @@
 
 .tscplayer_inline {
 	position:static;
-	margin: 30px;
+	margin: 8px auto;
 	width: 852px;
 	height: 480px;
 	z-index:auto;
+    text-align: center;
 }
 
 .tscplayer_fullframe {
@@ -21,8 +22,8 @@
 	z-index: 9999;	
 }
 
-@media screen and (max-width: 852px) {
+@media screen and (max-width: 480px) {
     .tscplayer_inline {
-	width: 100%;
+	    width: auto;
     }
 }
