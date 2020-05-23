@@ -337,6 +337,9 @@ h1.media-title {
         top: 4px;
         margin: 4px 2px 4px;
     }
+    div.links-inner {
+        width: 120px;
+    }
     div.media-thumbs {
         flex-direction: column;
     }
