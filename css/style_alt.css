@@ -291,6 +291,10 @@ iframe {
     box-shadow: 0 0 12px 2px rgba(227, 162, 26, 0.7);
     padding: 4px;
 }
+h1.media-title {
+    text-align: center;
+    color: #1D1D1D;
+}
 @media only screen and (max-width: 480px) {
     .main-container, .main-body, nav.top-menu {
         min-width: auto;
