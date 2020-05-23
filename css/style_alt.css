@@ -212,7 +212,7 @@ nav.links ul li a:hover {
 div.links-inner {
     display: flex;
     text-align: center;
-    margin: 0 auto;
+    margin: 16px auto;
     width: auto;
 }
 div.links-inner::before {
