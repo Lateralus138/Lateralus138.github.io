@@ -23,8 +23,8 @@
 	z-index: 9999;	
 }
 
-@media screen and (max-width: 852px) {
+@media screen and (max-width: 480px) {
     .tscplayer_inline {
-	width: 100%;
+	    width: auto;
     }
 }
