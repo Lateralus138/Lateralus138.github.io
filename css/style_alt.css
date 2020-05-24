@@ -322,6 +322,9 @@ h1.media-title {
     }
     nav.links ul {
         flex-direction: column;
+        position: relative;
+        float: left;
+        clear: both;
     }
     nav.links ul li a {
         margin: 0;
