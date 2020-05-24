@@ -322,9 +322,6 @@ h1.media-title {
     }
     nav.links ul {
         flex-direction: column;
-        position: relative;
-        float: left;
-        clear: both;
     }
     nav.links ul li a {
         margin: 0;
@@ -343,5 +340,12 @@ h1.media-title {
     }
     div.media-thumbs {
         flex-direction: column;
+    }
+    .validate-box {
+        display: block;
+        position: relative;
+        top: 0px;
+        float: left;
+        clear: both;
     }
 }
