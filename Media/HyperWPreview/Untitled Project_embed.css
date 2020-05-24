@@ -6,10 +6,12 @@
 
 .tscplayer_inline {
 	position:static;
-	margin: 30px;
+	margin: 8px auto;
+/*	margin: 30px;*/
 	width: 852px;
 	height: 480px;
 	z-index:auto;
+    text-align: center;
 }
 
 .tscplayer_fullframe {
