@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -8,24 +9,30 @@ html, body {
     color: #EDEDED;
     position: relative;
 }
+
 html {
     min-height: 100%;
 }
+
 body {
     min-height: 100vh;
     width: 100%;
 }
+
 header {
     text-align: center;
     width: auto;
 }
+
 .center {
     text-align: center;
     margin: 0 auto;
 }
+
 p.indent {
     text-indent: 2em;
 }
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -36,10 +43,12 @@ p.indent {
     margin-bottom: -122px;
     background: #FAFAFA;
 }
+
 .main-container::after {
     content: "";
     display: block;
 }
+
 nav.top-menu {
     min-height: 60px;
     display: inline-flex;
@@ -48,6 +57,7 @@ nav.top-menu {
     width: auto;
     box-shadow: 0px 0px 8px rgba(227, 162, 26, 1);
 }
+
 nav.top-menu a {
     background: #1D1D1D;
     white-space: nowrap;
@@ -62,6 +72,7 @@ nav.top-menu a {
     transition: background 0.5s ease-out, color 0.5s ease-out, box-shadow 0.5s ease-out;
     border-bottom: 1px solid rgba(29, 29, 29, 0.5);
 }
+
 nav.top-menu a:hover {
     box-shadow: 0px 4px 16px 0px rgba(227, 162, 26, 1);
     background: #E3A21A;
@@ -71,18 +82,22 @@ nav.top-menu a:hover {
     border-left: 1px solid rgba(29, 29, 29, 0.25);
     border-right: 1px solid rgba(29, 29, 29, 0.25);
 }
+
 nav.top-menu .active {
     background: #E3A21A;
     color: #1D1D1D;
     transition: background 0.5s ease-out, color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
+
 nav.top-menu .title {
     width: 100%;
 }
+
 .main-body {
     padding: 16px;
     margin: 0 0 120px;
 }
+
 .placard {
     background: #FFFFFF;
     border: 1px solid rgba(29, 29, 29, 0.25);
@@ -92,22 +107,28 @@ nav.top-menu .title {
     line-height: 32px;
     display: block;
 }
+
 .glow {
     box-shadow: 0 0 8px 2px rgba(227, 162, 26, 0.2);
     transition: 0.3s;
 }
+
 .glow:hover {
     box-shadow: 0 4px 16px 2px rgba(227, 162, 26, 0.2);
 }
+
 .force-width-auto {
     width: auto;
 }
+
 .force-width {
     width: 100%;
 }
+
 .force-display-block {
     display: block;
 }
+
 .highlight {
     font-style: italic;
     font-weight: bold;
@@ -120,9 +141,11 @@ nav.top-menu .title {
     border: 1px solid rgba(29, 29, 29, 0.2);
     margin: 0 2px;
 }
+
 .dark-text {
     color: #1D1D1D;
 }
+
 .footer {
     box-shadow: 0px 0px 8px rgba(227, 162, 26, 1);
     width: 100%;
@@ -132,15 +155,18 @@ nav.top-menu .title {
     float: left;
     border-top: 1px solid rgba(29, 29, 29, 0.66);
 }
+
 .validate-box {
     float: right;
     display: inline-block;
     margin: 16px;
 }
+
 .validate-box img {
     border: none;
     margin: 0 8px;
 }
+
 nav.links {
     display: inline;
     float: left;
@@ -149,15 +175,18 @@ nav.links {
     margin: 16px;
     max-width: 244px;
 }
+
 nav.links ul {
     display: flex;
     flex-direction: row;
     margin: 0;
     padding: 0;
 }
+
 nav.links ul li {
     list-style: none;
 }
+
 nav.links ul li a {
     white-space: nowrap;
     font-weight: 700;
@@ -174,26 +203,31 @@ nav.links ul li a {
     margin: 0 2px;
     transition: 0.33s ease-out;
 }
+
 nav.links ul li a:hover {
     box-shadow: 0px -4px #1D1D1D;
     border: 1px solid rgba(29, 29, 29, 1);
     margin: 4px 2px 0px;
     transition: 0.33s ease-out;
 }
+
 div.links-inner {
     display: flex;
     text-align: center;
     margin: 16px auto;
     width: auto;
 }
+
 div.links-inner::before {
     content: "";
     margin: 0 auto;
 }
+
 div.links-inner::after {
     content: "";
     margin: 0 auto;
 }
+
 div.links-inner div a {
     display: block;
     white-space: nowrap;
@@ -210,12 +244,14 @@ div.links-inner div a {
     margin: 0 auto;
     transition: 0.33s ease-out;
 }
+
 div.links-inner div a:hover {
     box-shadow: 0px -4px #1D1D1D;
     border: 1px solid rgba(29, 29, 29, 1);
     margin: 4px 2px -4px;
     transition: 0.33s ease-out;
 }
+
 div.under-construction {
     display: flex;
     flex-direction: column;
@@ -229,9 +265,11 @@ div.under-construction {
     padding: 0;
     transition: 0.3s;
 }
+
 div.under-construction:hover {
     box-shadow: 0 0 12px 2px rgba(227, 162, 26, 1);
 }
+
 div.under-construction img {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -239,6 +277,7 @@ div.under-construction img {
     border: none;
     background: repeating-linear-gradient(45deg, #E3A21A, #E3A21A 10px, #1D1D1D 10px, #1D1D1D 20px);
 }
+
 div.under-construction div {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -247,30 +286,38 @@ div.under-construction div {
     padding: 8px;
     margin: 0;
 }
+
 div.under-construction div p.head {
     text-align: center;
     font-size: 1.8em;
     margin: 0;
 }
+
 div.media-thumbs {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 div.media-thumbs div {
     background: #E3A21A;
     width: 166px;
     padding: 8px;
-    border: 1px solid #DDD;
+    box-shadow: 0 0 8px 1px rgba(227, 162, 26, 1);
+    border: 1px solid rgba(29, 29, 29, 0.66);
+    /* border: 1px solid #DDD; */
     border-radius: 4px;
     margin: 8px auto;
 }
+
 div.media-thumbs div h4 {
     text-align: center;
 }
+
 div.media-thumbs div a {
     text-decoration: none;
 }
+
 div.media-thumbs div a img {
     background: #FFFFFF;
     border: 1px solid #DDD;
@@ -279,11 +326,13 @@ div.media-thumbs div a img {
     width: 148px;
     transition: all 0.2s ease;
 }
+
 div.media-thumbs div a img:hover {
     box-shadow: 0 0 2px 0px rgba(29, 29, 29, 0.5);
     transform: rotate(360deg) scale(1.2);
     transition: all 0.2s ease;
 }
+
 iframe {
     border-radius: 8px;
     display: block;
@@ -291,15 +340,22 @@ iframe {
     box-shadow: 0 0 12px 2px rgba(227, 162, 26, 0.7);
     padding: 4px;
 }
+
 h1.media-title {
     text-align: center;
     color: #1D1D1D;
 }
+
 @media only screen and (max-width: 480px) {
-    .main-container, .main-body, nav.top-menu {
+    .main-container,
+    .main-body,
+    nav.top-menu {
         min-width: auto;
     }
-    .main-container, nav.top-menu, nav.top-menu .title, nav.top-menu a {
+    .main-container,
+    nav.top-menu,
+    nav.top-menu .title,
+    nav.top-menu a {
         width: auto;
     }
     nav.top-menu {
