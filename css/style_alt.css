@@ -405,7 +405,10 @@ h1.media-title {
         clear: both;
     }
     div.links-inner {
+        position: relative;
+        float: left;
         flex-direction: column;
+        margin: 8px;
     }
     div.links-inner div a {
         display: flex;
