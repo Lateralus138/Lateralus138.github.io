@@ -216,6 +216,7 @@ div.links-inner {
     text-align: center;
     margin: 16px auto;
     width: auto;
+    transition: 0.33s ease-out;
 }
 
 div.links-inner::before {
@@ -305,7 +306,6 @@ div.media-thumbs div {
     padding: 8px;
     box-shadow: 0 0 8px 1px rgba(227, 162, 26, 1);
     border: 1px solid rgba(29, 29, 29, 0.66);
-    /* border: 1px solid #DDD; */
     border-radius: 4px;
     margin: 8px auto;
 }
@@ -383,6 +383,7 @@ h1.media-title {
         margin: 0;
     }
     .validate-box {
+        clear: both;
         margin: 16px 0 0 16px;
         float: right;
     }
@@ -398,14 +399,12 @@ h1.media-title {
         flex-direction: column;
     }
     .validate-box {
-        display: block;
         position: relative;
-        top: 0px;
-        float: left;
-        clear: both;
+        top: 24px;
+        float: none;
+        margin: 24px 16px;
     }
     div.links-inner {
-        position: relative;
         width: auto;
         flex-direction: column;
         margin: 8px;
@@ -414,6 +413,10 @@ h1.media-title {
         display: flex;
         flex-direction: column;
         margin: 8px auto;
-/*        width: auto;*/
+    }
+    div.links-inner div a:hover {
+        position: relative;
+        top: 8px;
+        margin: 8px auto 8px;
     }
 }
