@@ -406,12 +406,13 @@ h1.media-title {
     }
     div.links-inner {
         position: relative;
-        float: left;
+        width: auto;
         flex-direction: column;
         margin: 8px;
     }
     div.links-inner div a {
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 }
