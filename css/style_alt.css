@@ -404,6 +404,9 @@ h1.media-title {
         float: left;
         clear: both;
     }
+    div.links-inner {
+        flex-direction: column;
+    }
     div.links-inner div a {
         display: flex;
         flex-direction: column;
