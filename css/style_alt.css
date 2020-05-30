@@ -413,6 +413,7 @@ h1.media-title {
     div.links-inner div a {
         display: flex;
         flex-direction: column;
-        width: auto;
+        margin: 8px auto;
+/*        width: auto;*/
     }
 }
