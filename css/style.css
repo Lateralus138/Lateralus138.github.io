@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.ahk_icon {
+<<<<<<< HEAD .ahk_icon {
     width: 256px;
     height: 256px;
     text-align: center;
@@ -302,14 +301,16 @@ p.links {
     margin-right: 10px;
     vertical-align: middle;
 }
+
 #Notable {
-	width: 800px;
+    width: 800px;
 }
+
 #Notable td {
-	padding: 0 16px;
+    padding: 0 16px;
 }
-=======
-.ahk_icon {
+
+=======.ahk_icon {
     width: 256px;
     height: 256px;
     text-align: center;
@@ -690,4 +691,5 @@ p.metrored {
 
 
 /* TODO: Finish UserStyles Widget */
->>>>>>> ddbed8fb4ac792c02c95e6aa093ce3d76f8053bd
+
+>>>>>>>ddbed8fb4ac792c02c95e6aa093ce3d76f8053bd
