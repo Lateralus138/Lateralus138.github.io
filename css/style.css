@@ -31,6 +31,9 @@ body {
 
 body {
     background: #E0E0E0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABj2lDQ1BJQ0MgcHJvZmlsZQAAKJF9kbtLw1AUxr+mirW0dNBBpEOG6lAsiII4uFjFIlQItYJVB/PoQ0jSkKS4OAquBQfRxdegf4Do6uAqCIIiiDj4F/hapMRzk0CLtF64nF++nPNx73cB7lyVNatrFNB028xl0vxyYYXveUMYvYghiqQoW8a0IGTRcX0/IMDqfYp5de5ru6JK0ZKBAE88JxumTVwhnti0DcZHxP1yRVSIL4hHTDog8SvTJY8/GZdd5kKMzXxuhjhOzJdbWGphuWJqxFPECUXTyZ9b91hhvM1YU2uyf052w0hRX1qkmqQdRwYqNqDBgIUieEio0bcKGymqOikWctSVpmzb+wy6PgLNSa6XTDOzqJKn6DqAvcXfjK3S+JjnFCHn7hfH+RgCenaBRt1xfo4dp3ECBJ+Ba705X6UcJ79Irze1xCEQo3te3jQ1aQ+42gEGngzRFF0pSJsrlYD3M3quAtB3B4RXvfz8/zh9BPJbQPYW2D8Ahsvkvdbh3iE/v3ksQPi3x0/wF+GKdK4pBb6fAAAABmJLR0QA4ADgAODYf054AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AoJEScd0p6z5AAAADpJREFUGNO9zrENwDAMA8GzJtH+U3ETpUkRGE7KlP8gHpRkMJgks3NBEtDddq6TfPK6c6+D+srDDx8ubHc9w8a2nHIAAAAASUVORK5CYII=);
+    background-repeat: repeat;
+    /* background-position: center center; */
     /**/
     color: #212121;
     font-size: 14px;
